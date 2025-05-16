@@ -1,0 +1,144 @@
+
+body {
+  color: rgba(0, 0, 0, 0.79);
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-div,
+.services,
+.doctors-section,
+.appointment,
+.about-us,
+.footer {
+  padding: 0 7%;
+}
+
+.navbar-div {
+  background: radial-gradient(100% 250.67% at 100% 100%, rgba(99, 204, 202, 0.1) 0%, rgba(88, 53, 94, 0.1) 100%);
+}
+
+
+.nav-li {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+span {
+  color:#40B2B0;
+}
+
+.brief-writeup,
+.services-writeup {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: large;
+  font-weight: 500;
+}
+
+.services {
+  background-color: rgba(99, 204, 202, 0.06);
+}
+
+.hospital {
+  position: absolute;
+  width: 352.08px;
+  height: 303.13px;
+  left: 150px;
+  border-radius: 2%;
+}
+.doctor-image {
+  position: absolute;
+  width: 150.89px;
+  height: 219.97px;
+  left: 420px;
+  top: 730px;
+  border-radius: 2%;
+
+}
+.no-bullets {
+  list-style: none;
+  font-weight: 500;
+}
+
+.btn1 {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #40B2B0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  color:black;
+  background: #3ea3a2 !important;
+}
+
+.doctors-section {
+  background-color: #F5F5F5;
+}
+
+.doctors-header,
+.appointment-header {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.doctors-list{
+  text-align: center;
+}
+
+.doctor1{
+  max-width: 190px;
+  height: 255px;
+  border-radius: 3%;
+}
+
+.icon {
+  float: left;
+  margin-right: 12%;
+}
+.icon-paragraph {
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 587px){
+  .icon-paragraph {
+    margin-left: auto;
+
+  }
+}
+
+.red {
+  color: red;
+}
+
+.footer {
+  background: radial-gradient(100% 2506.63% at 100% 100%, rgba(99, 204, 202, 0.1) 0%, rgba(88, 53, 94, 0.1) 100%);
+  width: 100;
+  height: auto;
+  text-align: center;
+}
+
+.navbar-links > li  {
+  display: inline;
+  text-align: center;
+  padding: 3%;
+}
+
+.footer-links {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.79);
+}
+
+.footer-copy {
+  position: relative;
+  bottom: 1px;
+  text-align: center;
+}
